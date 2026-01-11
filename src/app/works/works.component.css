@@ -1,0 +1,115 @@
+.works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5%;
+    /* font-size: 1.2rem; */
+}
+
+.work-item1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    height: 3rem;
+}
+
+.work-item2{
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.work-item3-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.work-item3-card{
+    width: 300px;
+    height: 200px;
+    background-color: #ff0000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+    color: white;
+    font-size: 30px;
+}
+
+ .work-item3-card:hover{
+    transform: scale(1.05);
+    opacity: 1;
+ }
+
+ .work-item3-card1{
+    background-image: url('/assets/image1.png');
+ }
+
+ .work-item3-card2{
+    background-image: url('/assets/image2.png');
+ }
+
+ .work-item3-card3{
+    background-image: url('/assets/image3.png');
+ }
+
+ .work-item3-card4{
+    background-image: url('/assets/image4.png');
+ }
+
+ .work-item3-card5{
+    background-image: url('/assets/image5.png');
+ }
+
+ .work-item3-card6{
+    background-image: url('/assets/image6.png');
+ }
+
+.work-item4{
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2rem;
+    border: 2px solid #000;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: blue;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-color: blue;
+    height: 3rem;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.work-item4:hover{
+    transform: scale(1.05);
+    background-color: blue;
+    color: white;
+}
+
+.bi{
+    margin-right: 5%;
+}
+
+.bold-arrow {
+    font-size: 1.6rem;   /* bigger makes it naturally thicker */
+    -webkit-text-stroke: 1px currentColor; /* stroke = bold effect */
+}

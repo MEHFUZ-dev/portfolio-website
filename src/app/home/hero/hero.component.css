@@ -1,0 +1,57 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hero-bg {
+    margin-top: 50px;
+
+    height: 80px;
+    margin-top: 10px;
+
+}
+
+.hero-left {
+    width: 100%;
+    height: 100px;
+    margin-right: 50px;
+
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    padding-left: 140px;
+}
+
+.hero-center {
+    width: 60%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-right {
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    background-image: url(/assets/mf-avatar.svg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+}   
