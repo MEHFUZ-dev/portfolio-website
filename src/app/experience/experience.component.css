@@ -60,6 +60,18 @@
 
 }
 
+@media (min-width: 600px) and (max-width: 700px) {
+  .second-para {
+    font-size: 13px;
+  }
+}
+@media (min-width: 300px) and (max-width: 599px) {
+  .second-para {
+    font-size: 11px;
+  }
+}
+
+
 .third {
     width: 95%;
     background-color: rgb(255, 255, 255);
